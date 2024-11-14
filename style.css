@@ -6,6 +6,10 @@
 	font-family: 'cinecaption226'; 
 	src: url('fonts/cinecaption226.ttf') format('truetype');
 }
+@font-face{
+	font-family: 'keifont';
+	src: url('fonts/keifont.ttf') format('truetype');
+}
 
 
 
@@ -19,7 +23,7 @@ header {
 
 body {
 	background-color: #fff3b8;
-	font-family: "CC-ultimatum","cinecaption226",serif;
+	font-family: "CC-ultimatum","keifont",serif;
 }
 
 footer {
