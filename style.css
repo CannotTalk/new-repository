@@ -23,7 +23,7 @@ header {
 
 body {
 	background-color: #fff3b8;
-	font-family: "CC-ultimatum","cinecaption226",serif;
+	font-family: "CC-ultimatum","keifont",serif;
 }
 
 footer {
@@ -32,17 +32,19 @@ footer {
 	background-color: brown;
 	color: #ffffff;
 	margin: 0px;
-	padding: 5px;
+	padding: 20px;
 }
 
 h1 {
     font-size: 50px;
-    background-color: #00552e;
-    border-radius: 20px;
-    color: #ffffff;
-	padding: 10px 14px;
-    text-align: center;
-   	margin-top: 0px;
+	border-left: 10px solid;
+	border-left-color: #008a11;
+    color: #000000;
+	padding: 0px;
+	padding-left: 20px;
+    text-align: left;
+   	margin: 10px;
+	margin-left: 20px;
 }
 
 h2 {
@@ -50,4 +52,47 @@ h2 {
 	color: #000000;
 	margin-top: 30px;
 	padding: 10px;
+}
+
+.virusAlert {
+	background-color: #ff0000;
+	margin: 0px;
+	padding: 10px;
+}
+
+.virusAlert h1 {
+	color: white;
+	border-left-color: white;
+}
+
+.virusAlert p {
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+	text-align: center;
+}
+
+.removeVirusButton {
+border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: #0000ff;
+	box-shadow:
+    	inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    	inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.removeVirusButton:hover {
+	background-color: #4444ff;
+}
+
+.removeVirusButton:active {
+	box-shadow: 
+		inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    	inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
