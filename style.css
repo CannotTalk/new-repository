@@ -1,0 +1,49 @@
+@font-face {
+	font-family: 'CC-ultimatum';
+	src: url('fonts/cc-ultimatum-bold-italic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'cinecaption226'; 
+	src: url('fonts/cinecaption226.ttf') format('truetype');
+}
+
+
+
+header {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	padding: 10px;
+	text-align: right;
+}
+
+body {
+	background-color: #fff3b8;
+	font-family: "CC-ultimatum","cinecaption226",serif;
+}
+
+footer {
+	text-align: center;
+	font-size: 20px;
+	background-color: brown;
+	color: #ffffff;
+	margin: 0px;
+	padding: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #00552e;
+    border-radius: 20px;
+    color: #ffffff;
+	padding: 10px 14px;
+    text-align: center;
+   	margin-top: 0px;
+}
+
+h2 {
+	font-size: 20px;
+	color: #000000;
+	margin-top: 30px;
+	padding: 10px;
+}
