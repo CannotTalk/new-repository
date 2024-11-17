@@ -14,10 +14,13 @@
 
 
 header {
+	background-color: darkblue;
 	font-size: 20px;
+	font-family: "CC-ultimatum","cinecaption226",serif;
 	font-weight: bold;
-	color: #000000;
+	color: yellow;
 	padding: 10px;
+	padding-right: 20px;
 	text-align: right;
 }
 
@@ -61,9 +64,9 @@ h2 {
 	padding: 10px;
 }
 
-.virusAlert h1 {
-	color: white;
-	border-left-color: white;
+#virusAlertTitle {
+	border-image: repeating-linear-gradient(135deg, yellow, yellow 10px, black 10px, black 20px ) 5;
+	color: #000000;
 }
 
 .virusAlert p {
@@ -74,7 +77,8 @@ h2 {
 }
 
 .removeVirusButton {
-border: 0;
+	font-family: "CC-ultimatum","Serif";
+	border: 0;
 	line-height: 2.5;
 	padding: 0 20px;
 	font-size: 1rem;
@@ -94,6 +98,67 @@ border: 0;
 
 .removeVirusButton:active {
 	box-shadow: 
-		inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-    	inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+		inset -2px -2px 3px #ffffff,
+    	inset 2px 2px 3px #000000;
+}
+
+.sectionTable {
+	background-color: darkgoldenrod;
+	padding: 10px;
+}
+
+.sectionTable li{
+	margin-left: 50px;
+}
+
+.sectionTable a{
+	text-decoration: none;
+}
+
+.sectionTable a:hover{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.make10 {
+	background-color: #000000;
+	color: #00ff00;
+	margin: 0px;
+	padding: 10px;
+}
+
+.make10 h1{
+	color: #00ff00;
+}
+
+.make10 p {
+	padding: 20px;
+	text-align: center;
+	font-family: "cinecaption226",serif;
+	font-weight: bold;
+}
+
+.generateNumberButton {
+	font-size: 20px;
+	border: 3px solid #00ff00;
+	background-color: #000000;
+	color: #00ff00;
+	padding: 10px 25%;
+	display: block;
+	margin: auto;
+	transition: all .5s ease 0s;
+}
+
+.generateNumberButton:hover{
+	color: #000000;
+	background-color: #00ff00;
+	transition: all .5s ease 0s;
+}
+
+#make10numbers {
+	font-size: 60px;
+	font-family: "CC-ultimatum",serif;
+	text-align: center;
+	display: block;
+	margin: auto;
 }

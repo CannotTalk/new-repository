@@ -9,14 +9,30 @@
   </style>
 </head>
 <header>
+  閲覧数：<span id="viewersNum"></span>
 </header>
 <body>
-  <section class="virusAlert">
-    <h1>警告！</h1>
+  <section class="virusAlert" id="virusAlert">
+    <h1 id="virusAlertTitle">WARNING!!</h1>
     <p><span id="virusTimeLeft"></span> seconds until your device is infected with a virus!<br>
     Press the button below to remove the virus!<br>
     <button class="removeVirusButton" type="button" onclick="openByClickVirusButton()">Remove virus from Your device</button>
     </p>
+  </section>
+  <section class="sectionTable" id="sectionTable">
+    <h1>目次</h1>
+
+    <ui>
+      <li><a href="#virusAlert">警告</a></li>
+      <li><a href="#sectionTable">目次</a></li>
+      <li><a href="#make10">MAKE 10</a></li>
+    </ui>
+  </section>
+  <section class="make10" id="make10">
+    <h1>MAKE 10 WITH 4 NUMBERS</h1>
+    <p>ランダムに表示される4つの数字を使って10を作ろう！</p>
+      <button class="generateNumberButton" onclick="generate4Num()">生成</button>
+      <span id="make10numbers"></span>
   </section>
 </body>
 <footer>
